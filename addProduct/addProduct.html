@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./addProduct.css" />
+    <link rel="stylesheet" href="../utils/header.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">LOGO</div>
+      <img
+        class="burger-logo"
+        id="burger-button"
+        src="../assets/Hamburger-logo.svg"
+        alt="hamburger icon"
+      />
+      <nav>
+        <ul>
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="./addProduct.html">ADD PRODUCT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="form" id="form">
+      <h2>New Product</h2>
+      <div class="input-holder">
+        <input type="text" id="name" placeholder="Name" />
+        <input type="text" id="price" placeholder="Price" />
+        <input type="text" id="image-url" placeholder="ImageURL" />
+        <textarea
+          id="description"
+          placeholder="Description"
+          class="description"
+        ></textarea>
+        <input type="text" id="location" placeholder="Location" />
+      </div>
+      <button class="add-btn" id="add-btn">Add Product</button>
+    </div>
+
+    <script type="module" src="./addProduct.js"></script>
+  </body>
+</html>

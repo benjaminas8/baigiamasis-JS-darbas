@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/product/product.css" />
+    <link rel="stylesheet" href="../utils/header.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">LOGO</div>
+      <img
+        id="burger-button"
+        class="burger-logo"
+        src="../assets/Hamburger-logo.svg"
+        alt="hamburger icon"
+      />
+      <nav>
+        <ul>
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="../addProduct/addProduct.html">ADD PRODUCT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="product-wrapper" id="product-wrapper">
+      <div class="img-holder">
+        <img src="" alt="" id="product-image" />
+      </div>
+      <div class="product-text-holder">
+        <h2 class="product-name" id="product-name"></h2>
+        <div class="price-and-location-holder">
+          <h2 class="product-price" id="product-price"></h2>
+          <h2 class="product-location" id="product-location"></h2>
+        </div>
+        <p id="product-description"></p>
+      </div>
+      <button class="delete-btn" id="delete-btn">Delete product</button>
+    </div>
+
+    <script type="module" src="./product.js"></script>
+  </body>
+</html>
